@@ -8,7 +8,11 @@ module.exports = {
     "./pages/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        // primary: "Montserrat Alternates",
+      },
+    },
   },
   plugins: [],
 };
